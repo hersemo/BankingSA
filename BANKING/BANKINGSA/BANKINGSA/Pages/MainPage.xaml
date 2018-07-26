@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:views="clr-namespace:BANKINGSA.Pages"
+            x:Class="BANKINGSA.Pages.MainPage"
+            Title="{Binding Title}">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Name="MenuItem1" Order="Secondary"  Text="Inicio" Activated="Home_Activated"/>
+        <ToolbarItem Name="MenuItem1" Order="Secondary"  Text="Información" Activated="Info_Activated"/>
+        <ToolbarItem Name="MenuItem1" Order="Secondary"  Text="Cerrar Sesión" Activated="Logout_Activated"/>
+    </TabbedPage.ToolbarItems>
+    <TabbedPage.Children>
+        <NavigationPage Title="Cuentas">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_feed.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:AccountsPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Transferencias">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:TransfersPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="Pagos">
+            <NavigationPage.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="iOS" Value="tab_about.png"/>
+                </OnPlatform>
+            </NavigationPage.Icon>
+            <x:Arguments>
+                <views:PaysPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+</TabbedPage>
+    
+    

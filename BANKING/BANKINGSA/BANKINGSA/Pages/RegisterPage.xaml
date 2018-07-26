@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BANKINGSA.Pages.RegisterPage"
+             Title="Registro"
+             BackgroundColor="White"
+             xmlns:behavior="clr-namespace:BANKINGSA.Models">
+    <ContentPage.Content>
+        <StackLayout x:Name="stkRegister"
+                     Margin="30,0"
+                     VerticalOptions="Center">
+
+            <Label Text="Registro!"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   TextColor="Black"/>
+
+            <Entry VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtId"
+                   Placeholder="Identificación"/>
+            
+            <Entry VerticalOptions="Center"
+                HorizontalOptions="FillAndExpand"
+                x:Name="txtName"
+               Placeholder="Nombre"/>
+
+            <Entry VerticalOptions="Center"
+                HorizontalOptions="FillAndExpand"
+                x:Name="txtLastName"
+               Placeholder="Apellidos"/>
+
+            <Entry VerticalOptions="Center"
+                HorizontalOptions="FillAndExpand"
+                x:Name="txtEmail"
+               Placeholder="Correo"/>
+
+            <Entry VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtPhone"
+                   Placeholder="Teléfono"
+                   Keyboard="Numeric">
+                <Entry.Behaviors>
+                    <behavior:MaskedBehavior Mask="(XXX) XXX-XXX" />
+                </Entry.Behaviors>
+            </Entry>
+
+            <Entry VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtPwd"
+                   IsPassword="True"
+                   Placeholder="*****"/>
+            <Button x:Name="btnRegister"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Text="Registrarse"
+                    BackgroundColor="LightBlue"
+                    TextColor="White"
+                    Margin="40,0"
+                    Clicked="btnRegister_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

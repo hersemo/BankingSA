@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BANKINGSA.Pages.LoginPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     Margin="30,0">
+            <Image Source="Logo_Banco.png"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
+            <Label Text="Correo"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   TextColor="Black"/>
+            <Entry x:Name="usernameEntry" 
+                   PlaceholderColor="DarkGray"/>
+            <Label Text="Contraseña"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   TextColor="Black"/>
+            <Entry x:Name="passwordEntry" 
+                   IsPassword="true" 
+                   PlaceholderColor="DarkGray"/>
+            <Button Text="Login" 
+                    Clicked="btnLogin_Cliked"
+                    Margin="40,0"
+                    BackgroundColor="LightBlue"
+                    TextColor="White"/>
+            
+            <Label Text="Registrarse"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   TextColor="Gray"
+                   x:Name="lblRegister"/>
+            <Label Text="Olvido Contraseña"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Medium"
+                   TextColor="Gray"
+                   x:Name="lblPass"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

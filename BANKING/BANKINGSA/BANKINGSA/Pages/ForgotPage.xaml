@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BANKINGSA.Pages.ForgotPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"                     
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     x:Name="stkForgot">
+            <Label Text="Olvidaste la contraseña?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label Text="Ingresa el correo para ayudarte"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            
+            <Entry VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtEmail"
+                   Placeholder="Correo"/>
+            
+            <Button x:Name="btnForgot"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Text="Recuperar"
+                    BackgroundColor="LightBlue"
+                    TextColor="White"
+                    Clicked="btnForgot_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
