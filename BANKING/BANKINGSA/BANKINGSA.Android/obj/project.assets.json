@@ -895,6 +895,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.6",
           "Newtonsoft.Json": "11.0.2",
           "Xamarin.Forms": "3.0.0.561731"
         },

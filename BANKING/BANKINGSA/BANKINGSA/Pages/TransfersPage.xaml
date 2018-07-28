@@ -3,11 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BANKINGSA.Pages.TransfersPage"
              Title="Transferencias">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Aqui realizara las transferencias!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <Grid>
+        <ListView ItemsSource="{Binding}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Description}" Detail="{Binding Balance}" >
+                        <TextCell.ContextActions>
+                            <MenuItem Clicked="OnDetails"
+                                      CommandParameter="{Binding}"
+                                      Text="Detalles" IsDestructive="False" />
+                        </TextCell.ContextActions>
+                    </TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
 </ContentPage>

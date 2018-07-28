@@ -22,6 +22,15 @@ namespace BANKINGSA.Pages
 
         async private void btnRegister_Clicked(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(txtName.Text)
+                || string.IsNullOrWhiteSpace(txtLastName.Text)
+                || string.IsNullOrWhiteSpace(txtEmail.Text)
+                || string.IsNullOrWhiteSpace(txtPhone.Text)
+                || string.IsNullOrWhiteSpace(txtPwd.Text))
+            {
+                await DisplayAlert("Atención", "Debe ingresar todos los campos.", "Ok");
+                return;
+            }
             if (txtPwd.Text == null || txtPwd.Text.Length < 6)
             {
                 await DisplayAlert("Atención", "La contraseña debe contener al menos 6 caracteres", "Ok");
@@ -30,7 +39,6 @@ namespace BANKINGSA.Pages
             try
             {
                 User_Model user = new User_Model();
-                //user.Id = txtId.Text;
                 user.FirstName = txtName.Text;
                 user.LastName = txtLastName.Text;
                 user.Email = txtEmail.Text;

@@ -38,6 +38,8 @@ C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\Mono.
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\mscorlib.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Core.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.pdb
+C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.IO.Compression.pdb
+C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Net.Http.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Xml.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Xml.Linq.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\Xamarin.Forms.Core.pdb
@@ -45,10 +47,8 @@ C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\Xamar
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Data.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Numerics.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Transactions.pdb
-C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.IO.Compression.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.ComponentModel.Composition.pdb
-C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Net.Http.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Runtime.Serialization.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\bin\Debug\System.Web.Services.pdb
@@ -58,6 +58,8 @@ C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\links
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\mscorlib.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Core.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.pdb
+C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.IO.Compression.pdb
+C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Net.Http.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Xml.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Xml.Linq.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\Xamarin.Forms.Core.pdb
@@ -65,10 +67,8 @@ C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\links
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Data.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Numerics.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Transactions.pdb
-C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.IO.Compression.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.IO.Compression.FileSystem.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
-C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Net.Http.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Runtime.Serialization.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Hermes\source\repos\BANKING\BANKINGSA\BANKINGSA.Android\obj\Debug\linksrc\System.Web.Services.pdb

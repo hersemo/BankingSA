@@ -9,11 +9,11 @@ namespace BANKINGSA.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Type { get; set; }
-        public int Balance { get; set; }
+        public double Balance { get; set; }
         public string CreatedDate { get; set; }
         public Banking_User user { get; set; }
-        List<Banking_PayService> bankPays;
-        List<Banking_Transfer> bankTransfersOrigins;
-        List<Banking_Transfer> bankTransferDestinations;
+        public List<Banking_PayService> bankPays;
+        public List<Banking_Transfer> bankTransfersOrigins;
+        public List<Banking_Transfer> bankTransferDestinations;
     }
 }
