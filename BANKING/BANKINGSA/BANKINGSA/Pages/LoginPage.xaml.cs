@@ -44,11 +44,16 @@ namespace BANKINGSA.Pages
                 return;
             }
             Banking_User _user = await userManager.Login(usernameEntry.Text,passwordEntry.Text);
-            //if (_user.FirstName != null) {
+            if (_user != null) {
                 await Navigation.PushModalAsync(new MainPage());
-            passwordEntry.Text = null;
-            usernameEntry.Text = null;
-            //}
+                passwordEntry.Text = null;
+                usernameEntry.Text = null;
+            }
+            else
+            {
+                await DisplayAlert("Atención", "Usuario y/o contraseña incorrectos.", "Ok");
+                return;
+            }
         }
         
     }

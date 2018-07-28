@@ -13,7 +13,8 @@
                    FontSize="Medium"
                    TextColor="Black"/>
             <Entry x:Name="usernameEntry" 
-                   PlaceholderColor="DarkGray"/>
+                   PlaceholderColor="DarkGray"
+                   Keyboard="Email"/>
             <Label Text="Contraseña"
                    HorizontalTextAlignment="Center"
                    FontSize="Medium"

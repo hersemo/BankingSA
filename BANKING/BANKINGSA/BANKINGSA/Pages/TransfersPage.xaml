@@ -3,19 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BANKINGSA.Pages.TransfersPage"
              Title="Transferencias">
-    <Grid>
-        <ListView ItemsSource="{Binding}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Description}" Detail="{Binding Balance}" >
-                        <TextCell.ContextActions>
-                            <MenuItem Clicked="OnDetails"
-                                      CommandParameter="{Binding}"
-                                      Text="Detalles" IsDestructive="False" />
-                        </TextCell.ContextActions>
-                    </TextCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-    </Grid>
+    <ContentPage.Content>
+        <StackLayout x:Name="stkTransfer"
+                     Margin="30,0">
+
+            <Entry VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtOrigen"
+                   Placeholder="Cta Origen"/>
+
+            <Entry VerticalOptions="Center"
+                HorizontalOptions="FillAndExpand"
+                x:Name="txtDestino"
+               Placeholder="Cta Destino"/>
+
+            <Entry VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtMonto"
+                   Keyboard="Numeric"
+                   Placeholder="Monto"/>
+
+            <Button x:Name="btnTransfer"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Text="Transferir"
+                    BackgroundColor="LightBlue"
+                    TextColor="White"
+                    Margin="40,0"/>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

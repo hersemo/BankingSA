@@ -36,7 +36,7 @@ namespace BANKINGSA.Pages
                     if (account!=null && accounts.All(b => b.Id != account.Id))
                         accounts.Add(account);
                 }
-            }catch(Exception ex)
+            }catch
             {
 
             }
@@ -44,7 +44,7 @@ namespace BANKINGSA.Pages
 
         async void OnDetails(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new DetailAccount());
         }
 
     }

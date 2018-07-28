@@ -31,9 +31,10 @@
                Placeholder="Apellidos"/>
 
             <Entry VerticalOptions="Center"
-                HorizontalOptions="FillAndExpand"
-                x:Name="txtEmail"
-               Placeholder="Correo"/>
+                   HorizontalOptions="FillAndExpand"
+                   x:Name="txtEmail"
+                   Placeholder="Correo"
+                   Keyboard="Email"/>
 
             <Entry VerticalOptions="Center"
                    HorizontalOptions="FillAndExpand"

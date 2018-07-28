@@ -37,13 +37,13 @@ namespace BANKINGSA.Pages
                         services.Add(service);
                 }
             }
-            catch (Exception ex)
+            catch 
             {
 
             }
         }
 
-        async void OnDetails(object sender, EventArgs e)
+        void OnDetails(object sender, EventArgs e)
         {
 
         }
